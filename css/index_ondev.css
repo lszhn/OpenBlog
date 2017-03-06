@@ -1,0 +1,39 @@
+#ondev{
+    border-top: 1px solid rgb(100,100,100);
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 100%;
+    background-color: #282828;
+    background-image: url("../img/code_bk.jpg");
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ondev_title{
+    /*text-shadow: 5px 5px 0 #666, 7px 7px 0 white;*/
+    position: relative;
+    margin-top: 100px;
+    font-size: 40px;
+}
+#ondev_content{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+    top:250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+}
+#ondev_content a{
+    color: #1e88e5;
+}
+#ondev_content a:hover{
+    text-decoration:underline;
+}

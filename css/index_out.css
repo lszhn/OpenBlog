@@ -1,0 +1,14 @@
+.outfade{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:40px;
+    left: 0;
+    font-size: 60px;
+    font-family: "MyriadProLight", "Microsoft yahei light";
+    background-color:white;
+    text-align: center;
+    padding-top: 200px;
+    color:#1589c9;
+    z-index: 500;
+}

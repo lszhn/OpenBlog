@@ -1,0 +1,84 @@
+#loop {
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    background-color: white;
+}
+.loop_div {
+    position: relative;
+    margin: 0;
+}
+
+
+.loop_img {
+    margin-left:0;
+    width: 100%;
+    height: 100%;
+}
+.loop_cover{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.loop_content{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.loop_title {
+    font-family: MyriadProLight,"PingFangSC-Regular", "Microsoft yahei";
+    position: relative;
+    font-size: 30px;
+    color: rgba(245,245,245,0.7);
+}
+
+.loop_intro {
+    font-family: MyriadProLight,"PingFangSC-Regular", "Microsoft yahei";
+    position: relative;
+    font-size: 50px;
+    margin-top: 15px;
+    color: white;
+    transition: color 0.3s;
+}
+.loop_intro:hover{
+    color: rgb(220,220,220);
+}
+
+.loop_time {
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 90%;
+    font-size: 15px;
+    color: rgb(150,150,150);
+    font-family: "PingFangSC-Regular",MyriadProLight, "Microsoft yahei";
+
+}
+
+.loop_cate {
+    display: none;
+    border-radius: 3px;
+    padding: 3px;
+    border: 1px solid #1589c9;
+    color: #1589c9;
+    position: absolute;
+    right: 2%;
+    top: 88%;
+    font-size: 15px;
+}
+.loop_enter{
+    z-index: 4;
+    font-family: "PingFangSC-Regular", "Microsoft yahei";
+    font-size: 17px;
+    color: #1589c9;
+}
+.loop_enter:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('../fonts/MyriadProLight.eot');
+    src: url('../fonts/MyriadProLight.eot') format('embedded-opentype'),
+    url('../fonts/MyriadProLight.woff2') format('woff2'),
+    url('../fonts/MyriadProLight.woff') format('woff'),
+    url('../fonts/MyriadProLight.ttf') format('truetype'),
+    url('../fonts/MyriadProLight.svg#MyriadProLight') format('svg');
+}
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #29d;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
+
+.pace .pace-progress-inner {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 20px #29d, 0 0 5px #29d;
+    opacity: 1.0;
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+    -moz-transform: rotate(3deg) translate(0px, -4px);
+    -ms-transform: rotate(3deg) translate(0px, -4px);
+    -o-transform: rotate(3deg) translate(0px, -4px);
+    transform: rotate(3deg) translate(0px, -4px);
+}
+
+.pace .pace-activity {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    top: 12px;
+    right: 10%;
+    width: 15px;
+    height: 15px;
+    border: solid 2px transparent;
+    border-top-color: #29d;
+    border-left-color: #29d;
+    border-radius: 10px;
+    -webkit-animation: pace-spinner 400ms linear infinite;
+    -moz-animation: pace-spinner 400ms linear infinite;
+    -ms-animation: pace-spinner 400ms linear infinite;
+    -o-animation: pace-spinner 400ms linear infinite;
+    animation: pace-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes pace-spinner {
+    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes pace-spinner {
+    0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes pace-spinner {
+    0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes pace-spinner {
+    0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes pace-spinner {
+    0% { transform: rotate(0deg); transform: rotate(0deg); }
+    100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+body {
+    font-family: PingFangSC-light,"Microsoft yahei light", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    -moz-user-select:none;
+    user-select: none;
+    -webkit-user-select:none;
+    cursor:default;
+    min-width: 700px;
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+.hj_button {
+    border: 1px solid white;
+    background-color: #29292a;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    transition: background-color 0.2s,color 0.2s;
+}
+
+.hj_button:hover {
+    background-color: white;
+    color: #29292a;
+}
+.hj_button_w {
+    border: 1px solid #29292a;
+    background-color: #29292a;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.hj_button_w:hover {
+    background-color: white;
+    color: #29292a;
+}
+
+.header {
+    top:0;
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s,border-bottom-color 0.3s;
+
+}
+
+.header_logo {
+    position: absolute;
+    left: 10%;
+    font-family: MyriadProLight, "Microsoft yahei";
+    font-size: 20px;
+}
+.header_logo_sub{
+    font-family: MyriadProLight, "Microsoft yahei light", sans-serif;
+    font-size: 20px;
+}
+.header2{
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    top:40px;
+    float: left;
+    width: 100%;
+    z-index: 102;
+    height: 45px;
+    position: absolute;
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid #d9d9d9;
+    transition: background-color 0.4s, border-bottom-color 0.4s,color 0.4s,top 0s;
+
+}
+.header2_bk{
+    position: absolute;
+    height: 100%;
+    left: 10%;
+    top: 0;
+    z-index: 101;
+    width: 80%;
+    transition: 0.4s;
+    border-bottom: 1px solid #d9d9d9;
+}
+.header2_title{
+    margin-left: 10%;
+    font-family: MyriadProLight,"PingFangSC-light",'Microsoft yahei light';
+    font-size: 23px;
+    line-height: 50px;
+}
+.header2_subtitle{
+    font-family: MyriadProLight,"PingFangSC-light",'Microsoft yahei light';
+    font-size: 17px;
+    line-height: 50px;
+}
+
+.header_menu {
+    height: 40px;
+    margin-top: 8px;
+    list-style: none;
+    font-family: MyriadProLight, "Microsoft yahei light", sans-serif;
+}
+
+.header_menu li {
+    margin-right: 30px;
+    display: inline;
+    padding-left: 10px;
+    transition: color 0.3s;
+}
+
+.header_menu li a {
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.header_logo{
+    position: absolute;
+    top: 8px;
+    transition: color 0.3s;
+}
+.header_logo_sub{
+    color: rgb(100,100,100);
+}

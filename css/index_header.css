@@ -1,0 +1,30 @@
+.header{
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0.9;
+}
+.header_menu li a:hover {
+    color: #b7b7b7;
+}
+.header_menu li a {
+    color:white;
+}
+.header_logo{
+    color: white;
+}
+.header_logo:hover{
+    color: rgb(200,200,200);
+}
+
+.header_logo:hover {
+     color: RGB(200, 200, 200);
+ }
+.header_logo_sub{
+    color: RGB(100, 100, 100);
+}
+.header2{
+    background-color: transparent;
+    color: white;
+    -webkit-backdrop-filter: blur(0);
+    border-bottom: 1px transparent;
+}
+

@@ -1,0 +1,103 @@
+#ondev{
+    border-top: 1px solid rgb(100,100,100);
+    position: absolute;
+    top:0;
+    float: left;
+    height: 80%;
+    width: 100%;
+    background-color: #282828;
+    background-image: url("../img/code_bk.jpg");
+    color: white;
+    text-align: center;
+    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ondev_title {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    font-size: 70px;
+}
+#ondev_content{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+    top:250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+}
+#ondev_content a{
+    color: #1e88e5;
+}
+#ondev_content a:hover{
+    text-decoration:underline;
+}
+.loginBox{
+    font-family: "MyriadProLight", "Microsoft yahei light";
+    position: absolute;
+    text-align: center;
+    top:50%;
+    width:100%
+}
+.loginUserID{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    border-top: 1px solid #1e88e5;
+    border-left: 1px solid #1e88e5;
+    border-right: 1px solid #1e88e5;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.3s;
+}
+.loginUserID:hover{
+    background-color: rgb(230,230,230);
+}
+.loginPws{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    border-bottom: 1px solid #1e88e5;
+    border-left: 1px solid #1e88e5;
+    border-right: 1px solid #1e88e5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s;
+
+}
+.loginPws:hover{
+    background-color: rgb(230,230,230);
+}
+.loginBut{
+    font-family: "MyriadProLight", "Microsoft yahei light";
+
+    font-size: 25px;
+    width: 300px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e88e5;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.loginBut:hover{
+    background-color: rgb(230,230,230);
+}
+#footer{
+    top:80%;
+}

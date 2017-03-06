@@ -1,0 +1,33 @@
+假设已经有证书文件apache.crt 和私匙apache.key。
+在/etc/apache2/ 下新建一个ssl 文件夹，把这两个文件扔进去。
+
+配置SSL证书
+
+打开 /etc/apache2/sites-available/default-ssl.conf ，
+在ServerAdmin下另起一行加上ServerName 你的域名:443，
+找到SSLEngine,SSLCertificateFile,SSLCertificateKeyFile并修改成以下内容
+
+SSLEngine on
+
+SSLCertificateFile /etc/apache2/ssl/apache.crt
+
+SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+SSL证书配置完毕，保存退出。
+
+配置 HTTPS 强制跳转
+
+打开 /etc/apache2/sites-available/000-default.conf，
+在<VirtualHost *:80></VirtualHost>标签内随便一个地方加入以下三行
+
+RewriteEngine on
+RewriteCond  %{HTTPS} !=on
+RewriteRule  ^(.*) https://%{SERVER_NAME}$1 [L,R]
+强制跳转https配置完毕，保存退出。
+
+使配置生效
+
+启动 rewrite mod
+sudo a2enmod rewrite
+重启 apache
+sudo etc/init.d/apache2 restart
+配置结束。不出意外配置应该已经生效。
