@@ -36,6 +36,7 @@ if (!isPJAX()): ?>
     <title>huaji.io</title>
     <link href="css/page.css" rel="stylesheet" type="text/css">
     <link href="css/page_footer.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/highlight.min.js"></script>
     <link href="css/monokai_sublime.min.css" rel="stylesheet" type="text/css">
     <div class="header2">
         <span class="header2_title">文章</span>
@@ -89,8 +90,8 @@ if (!isPJAX()): ?>
             <div style="position: absolute;right: 0">powered by huaji blog</div>
         </div>
     </div>
-    <script type="text/javascript" src="js/highlight.min.js"></script>
     <script type="text/javascript" src="js/page.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <?php if(!isPJAX()):?>
 </div>
 </body>

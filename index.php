@@ -98,8 +98,7 @@ if (!isPJAX()): ?>
     <div class="footer_block">
         <p class="footer_block_title">Contact me</p>
         <ul class="footer_block_list">
-            <li>E-mail</li>
-            <li>Build-in Messager</li>
+            <li><a href="mailto:zhixiang96@hotmail.com">E-mail</a></li>
             <li>Tencent QQ</li>
             <li>WeChat</li>
         </ul>

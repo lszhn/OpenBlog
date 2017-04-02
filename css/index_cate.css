@@ -1,7 +1,7 @@
 #cate{
     text-align: center;
     background-color: white;
-    height: 250px;
+    height: 190px;
     width: 70%;
     margin-left:15%;
 }
@@ -14,8 +14,8 @@
     border-radius: 20px;
     color: black;
     font-family: "MyriadProLight", "Microsoft yahei light";
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     display: block;
     float: left;
     transition: 0.3s;
@@ -27,13 +27,13 @@
 }
 .cate_box i{
     display: block;
-    padding-top: 50px;
-    font-size: 70px;
+    padding-top: 30px;
+    font-size: 50px;
     color:#2d2d2d;
 }
 .cate_box_title{
     display: block;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
     color:#2d2d2d;
 }

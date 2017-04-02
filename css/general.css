@@ -6,6 +6,7 @@
     url('../fonts/MyriadProLight.woff') format('woff'),
     url('../fonts/MyriadProLight.ttf') format('truetype'),
     url('../fonts/MyriadProLight.svg#MyriadProLight') format('svg');
+    url('../fonts/search.svg#AppleSearch')
 }
 .pace {
     -webkit-pointer-events: none;

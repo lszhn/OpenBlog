@@ -1,5 +1,3 @@
-
-        <p>
-
-        </p>
-    <p><br></p>
+<h2>Getting Started</h2><p>The bare minimum for using highlight.js on a web page is linking to the library along with one of the styles and calling<a href="http://highlightjs.readthedocs.io/en/latest/api.html#inithighlightingonload">initHighlightingOnLoad</a>:</p><pre><code>&lt;link rel="stylesheet" href="/path/to/styles/default.css"&gt;
+&lt;script src="/path/to/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;</code></pre><p>This will find and highlight code inside of&nbsp;&lt;pre&gt;&lt;code&gt;&nbsp;tags; it tries to detect the language automatically. If automatic detection doesn’t work for you, you can specify the language in the&nbsp;class&nbsp;attribute:</p><pre><code>&lt;pre&gt;&lt;code class="html"&gt;...&lt;/code&gt;&lt;/pre&gt;</code></pre><p><br></p>

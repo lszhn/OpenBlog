@@ -163,3 +163,8 @@ blockquote{
     background:rgb(230,230,230);
     color:#1589c9;
 }
+#page_content h4{
+    padding-top: 40px;
+    color:#444444;
+    font-size: 22px;
+}
