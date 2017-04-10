@@ -21,18 +21,20 @@ else{
     <link href="css/general.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="editor/dist/css/wangEditor.min.css">
     <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+
 
 </head>
 <body id=new_article_body>
 <div class="header">
     <a id="header_new_logo" class="header_logo">huaji.io<span class="header_logo_sub">batterfly</span></a>
-    <form class="file_upload" enctype="multipart/form-data">
-        <input type="file" name="first" id="file" />
+    <form id="uploadForm" class="file_upload" enctype="multipart/form-data">
+        <input id="uploadFile" type="file" name="uploadFile"/>
     </form>
     <a id="header_new_publish" class="hj_button" ondblclick="publish()">发布</a>
 </div>
 <div class="header2">
-    <div class="header2_title">无标题文章</div><div class="header2_subtitle" style="font-family:'PingFang SC','Microsoft yahei';font-size: 16px;margin-top: -1px"></div>
+    <div class="header2_title">无标题文章</div>
 </div>
 <div id="category_new">
     <div class="hjs_con">
@@ -41,7 +43,10 @@ else{
         <div class="hjs_list" id="category_list">
             <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">心情</p><br>
             <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">人月神话</p><br>
-            <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">观点</p>
+            <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">观点</p><br>
+            <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">旅行</p><br>
+            <p onmouseover="over_hjs(this)" onmouseout="leave_hjs(this)" onclick="choose_hjs(this)">奇技淫巧</p>
+
         </div>
     </div>
 
@@ -49,7 +54,7 @@ else{
 <div id="new_article_words">
 
     <input id="new_article_title" class="hjt" type="text" title="article_title"/><br>
-    https://cn.huaji.io/page.php?name =
+    https://www.huaji.io/page.php?name =
     <input id="new_article_name" type="text" title="article_name"/>
 
 </div>
@@ -63,7 +68,7 @@ else{
 </div>
 <div id="footer">
     <div class="footer_tips">
-        <p>* cn.huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
+        <p>* huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
     </div>
     <div class="footer_block">
         <p class="footer_block_title">Authority</p>

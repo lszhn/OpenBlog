@@ -27,6 +27,7 @@ if (!isPJAX()): ?>
         <li><a href="category.php?=spirits">Spirits</a></li>
         <li><a href="category.php?=points">Points</a></li>
         <li><a href="category.php?=code">Code</a></li>
+        <li><a href="category.php?=trick">Trick</a></li>
         <li><a>About</a></li>
     </ul>
 

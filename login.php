@@ -27,10 +27,11 @@ if (!isPJAX()): ?>
             class="header_logo_sub">batterfly</span></a>
     <ul class="header_menu">
         <li><a href="index.php">Home</a></li>
-        <li><a href="page.php?name=code2">Spirits</a></li>
-        <li><a>Points</a></li>
-        <li><a>Code</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="category.php?=spirits">Spirits</a></li>
+        <li><a href="category.php?=points">Points</a></li>
+        <li><a href="category.php?=code">Code</a></li>
+        <li><a href="category.php?=trick">Trick</a></li>
+        <li><a>About</a></li>
     </ul>
 </div>
 <div id="main">

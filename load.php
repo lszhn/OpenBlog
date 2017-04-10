@@ -75,15 +75,19 @@ function db_init()
         global $row_points;
         global $row_code;
         global $row_spirits;
+        global $row_trick;
+        global $row_travel;
         $row_spirits = array();
         $row_points = array();
         $row_code = array();
-
+        $row_trick = array();
+        $row_travel = array();
         if ($result) {
 
             $k1 = 0;
             $k2 = 0;
             $k3 = 0;
+            $k4 = 0;
 
             for ($i = 0; $i < count($row); $i++) {
                 switch ($row[$i][4]) {
@@ -98,6 +102,10 @@ function db_init()
                     case "观点":
                         $row_points[$k3] = $row[$i];
                         $k3++;
+                        break;
+                    case "奇技淫巧":
+                        $row_trick[$k4] = $row[$i];
+                        $k4++;
                         break;
                 }
             }
@@ -218,9 +226,47 @@ if(isset($_POST['load_type'])){
                         . $row_points[$index][3]
                         . '.png"></div>';
                 }
+                break;
+            }
 
-            }                break;
+            case 'trick':{
+                for ($index = 0; $index < sizeof($row_trick); $index++) {
+                    echo '<div class="page"><div class="page_content"><a class="page_title" href="page.php?name=' . $row_trick[$index][3] . '")>'
+                        . $row_trick[$index][1]
+                        . '</a><p class="page_subtitle">'
+                        . $row_trick[$index][2]
+                        . '</p><p class="page_intro">';
+                    echo load_page_intro($row_trick[$index][3]);
+                    echo'</p><span class="page_info"><a class="page_cate">'
+                        . $row_trick[$index][4]
+                        . '</a><span class="page_time">'
+                        . $row_trick[$index][5]
+                        . '</span><a class="page_enter" href="page.php?name=' . $row_trick[$index][3] . '")>进入文章></a></span></div><img class="page_img" src="source/shortcut/'
+                        . $row_trick[$index][3]
+                        . '.png"></div>';
+                }
+                break;
 
+            }
+            case 'travel':{
+                for ($index = 0; $index < sizeof($row_travel); $index++) {
+                    echo '<div class="page"><div class="page_content"><a class="page_title" href="page.php?name=' . $row_travel[$index][3] . '")>'
+                        . $row_travel[$index][1]
+                        . '</a><p class="page_subtitle">'
+                        . $row_travel[$index][2]
+                        . '</p><p class="page_intro">';
+                    echo load_page_intro($row_travel[$index][3]);
+                    echo'</p><span class="page_info"><a class="page_cate">'
+                        . $row_travel[$index][4]
+                        . '</a><span class="page_time">'
+                        . $row_travel[$index][5]
+                        . '</span><a class="page_enter" href="page.php?name=' . $row_travel[$index][3] . '")>进入文章></a></span></div><img class="page_img" src="source/shortcut/'
+                        . $row_travel[$index][3]
+                        . '.png"></div>';
+                }
+                break;
+
+            }
         }
 
     }

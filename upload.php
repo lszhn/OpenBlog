@@ -1,9 +1,9 @@
 <?php
-if(isset($_FILES['first'])){
-    if($_FILES['first']['error']>0)
+if(isset($_FILES['uploadFile'])){
+    if($_FILES['uploadFile']['error']>0)
         echo "error";
     else{
-        move_uploaded_file($_FILES['first']['tmp_name'],'uploads/'.$_FILES['first']['name']);
+        move_uploaded_file($_FILES['uploadFile']['tmp_name'],'source/upload/'.$_FILES['uploadFile']['name']);
     }
 }
 ?>

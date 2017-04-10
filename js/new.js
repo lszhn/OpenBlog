@@ -75,7 +75,6 @@ function publish() {
     var publish_cate = $(".hjs_result").text();
     var publish_title_sub = $("#new_article_title").val().split("-");
     var publish_title = publish_title_sub[0];
-    var publish_sub = publish_title_sub[1];
     var publish_iscover = publish_title_sub[2];
     var publish_name = $("#new_article_name").val();
     if (publish_title == "" || publish_name == "" || publish_iscover == "") {
@@ -154,3 +153,16 @@ function getname() {
     var getstr = fullurl.split("=");
     return getstr[1];
 }
+
+
+$("#uploadForm").on("change", function() {
+    $.ajax({
+        url: 'upload.php',
+        type: 'POST',
+        cache: false,
+        data: new FormData($('#uploadForm')[0]),
+        processData: false,
+        contentType: false
+    }).done(function(res) {
+    }).fail(function(res) {});
+});
