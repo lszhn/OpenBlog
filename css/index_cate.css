@@ -1,7 +1,7 @@
-#cate{
+.cate{
     text-align: center;
     background-color: white;
-    height: 190px;
+    height: 170px;
     width: 70%;
     margin-left:15%;
 }
@@ -9,13 +9,12 @@
     position: relative;
     text-align: center;
     background-color: #f1f1f1;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: black;
-    font-family: "MyriadProLight", "Microsoft yahei light";
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     display: block;
     float: left;
     transition: 0.3s;
@@ -25,15 +24,46 @@
     color: black;
 
 }
+.cate_box2{
+    position: relative;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: black;
+    height: 130px;
+    width: 130px;
+    float: left;
+    display: block;
+    transition: 0.3s;
+}
+.cate_box2:hover{
+    background-color: #dedede;
+    color: black;
+
+}
+.cate_box2 i{
+    display: block;
+    padding-top: 32px;
+    font-size: 40px;
+    color:#2d2d2d;
+}
 .cate_box i{
     display: block;
-    padding-top: 30px;
-    font-size: 50px;
+    padding-top: 25px;
+    font-size: 40px;
     color:#2d2d2d;
 }
 .cate_box_title{
     display: block;
     padding-top: 20px;
     font-size: 20px;
+    color:#2d2d2d;
+}
+.cate_box_title2{
+    display: block;
+    padding-top: 8px;
+    font-size: 18px;
     color:#2d2d2d;
 }

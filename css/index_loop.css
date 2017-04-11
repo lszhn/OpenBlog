@@ -33,14 +33,12 @@
     text-align: center;
 }
 .loop_title {
-    font-family: MyriadProLight,"PingFangSC-Regular", "Microsoft yahei";
     position: relative;
     font-size: 30px;
     color: rgba(245,245,245,0.7);
 }
 
 .loop_intro {
-    font-family: MyriadProLight,"PingFangSC-Regular", "Microsoft yahei";
     position: relative;
     font-size: 50px;
     margin-top: 15px;
@@ -58,7 +56,6 @@
     top: 90%;
     font-size: 15px;
     color: rgb(150,150,150);
-    font-family: "PingFangSC-Regular",MyriadProLight, "Microsoft yahei";
 
 }
 
@@ -75,7 +72,6 @@
 }
 .loop_enter{
     z-index: 4;
-    font-family: "PingFangSC-Regular", "Microsoft yahei";
     font-size: 17px;
     color: #1589c9;
 }

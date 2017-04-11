@@ -33,7 +33,6 @@ body {
     -moz-user-select: text;
     user-select: text;
     -webkit-user-select: text;
-    font-family: MyriadProLight, "PingFangSC-light", 'Microsoft yahei light';
     margin-top: 40px;
     float: left;
     width: 60%;
@@ -63,7 +62,6 @@ body {
 }
 
 #page_header {
-    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
     position: relative;
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
@@ -166,7 +164,6 @@ blockquote {
 }
 
 #page_content h3 {
-    font-family: "MyriadProLight", "PingFangSC", "Microsoft yahei light";
     font-weight: normal;
     width: 100%;
     border-top: 1px solid rgb(220, 220, 220);

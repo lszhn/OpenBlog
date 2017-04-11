@@ -1,6 +1,5 @@
 #new_article_body{
     background-color: #f6f6f6;
-    font-family: PingFangSC-Regular,"Microsoft yahei", sans-serif;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -24,7 +23,6 @@
     margin: 0;
     line-height: 40px;
     font-size: 15px;
-    font-family: "MyriadProLight", "Microsoft yahei light";
     padding-top: 10px;
     height: 20px;
 }

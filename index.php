@@ -49,24 +49,25 @@ if (!isPJAX()): ?>
     <div class="header2_bk"></div>
 </div>
 <div id="loop"></div>
-<div id="cate">
-   <a class="cate_box" href="category.php?=spirits">
+<div class="cate" id="cate0">
+   <a class="cate_box2" href="category.php?=spirits">
         <i class="icon-comments"></i>
-        <span class="cate_box_title">SPIRITS</span>
+        <span class="cate_box_title2">spirits</span>
    </a>
-   <a class="cate_box" href="category.php?=points">
+   <a class="cate_box2" href="category.php?=points">
    <i class="icon-quote-left"></i>
-        <span class="cate_box_title">POINTS</span>
+        <span class="cate_box_title2">points</span>
    </a>
-   <a class="cate_box" href="category.php?=code">
+   <a class="cate_box2" href="category.php?=code">
    <i class="icon-laptop"></i>
-        <span class="cate_box_title">CODE</span>
+        <span class="cate_box_title2">code</span>
    </a>
-   <a class="cate_box" style="float: right" href="new.php">
-   <i class="icon-file-alt"></i>
-        <span class="cate_box_title">NEW</span>
+   <a class="cate_box2" href="category.php?=trick">
+   <i class="icon-magic"></i>
+        <span class="cate_box_title2">trick</span>
    </a>
 </div>
+
 <div id="content"></div>
 <div id="collection">
 <div id="coll_box"></div>
@@ -77,6 +78,16 @@ if (!isPJAX()): ?>
         <div class="coll_detail_cate"></div>
         <div class="coll_detail_content">Loading...</div>
     </div>
+</div>
+<div class="cate" style="display: none">
+   <a class="cate_box" href="upload.php">
+   <i class="icon-cloud-upload"></i>
+        <span class="cate_box_title">UPLOAD</span>
+   </a>
+   <a class="cate_box" href="new.php">
+   <i class="icon-file-alt"></i>
+        <span class="cate_box_title">NEW</span>
+   </a>
 </div>
 <div id="ondev">
     <p id="ondev_title">Coming Soon.</p>
@@ -90,7 +101,7 @@ if (!isPJAX()): ?>
     <div class="footer_block">
         <p class="footer_block_title">Authority</p>
         <ul class="footer_block_list">
-            <li>Developer mode</li>
+            <li>Register</li>
             <li>Download pages</li>
             <li>Opensource</li>
             <li>Backup</li>
@@ -107,7 +118,7 @@ if (!isPJAX()): ?>
     <div id="footer_end" style="text-align: center">
         <div style="position: absolute;left: 0">Copyright © 2017 huaji.io All rights reserved.</div>
         <div style="position: absolute;left: 45%">鲁ICP备16011857号-2</div>
-        <div style="position: absolute;right: 0">powered by huaji blog</div>
+        <div style="position: absolute;right: 0">powered by <a href="http://bella.huaji.io">Bella</a></div>
     </div>
 </div>
 <div class="outfade">Loading...<div>

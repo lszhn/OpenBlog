@@ -65,7 +65,7 @@ if (!isPJAX()): ?>
                                                                                               src="https://i.creativecommons.org/l/by-nc-nd/3.0/cn/80x15.png"/></a><br/>博客作品均采用<a
                     rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/">知识共享署名-非商业性使用-禁止演绎 3.0
                 中国大陆许可协议</a>进行许可。
-            <p>* cn.huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
+            <p>* www.huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
         </div>
         <div class="footer_block">
             <p class="footer_block_title">Authority</p>

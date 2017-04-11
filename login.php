@@ -37,21 +37,18 @@ if (!isPJAX()): ?>
 <div id="main">
     <?php endif; ?>
     <title>登录 - huaji.io</title>
-    <link href="css/index_header.css" rel="stylesheet" type="text/css">
+    <link href="css/page.css" rel="stylesheet" type="text/css">
     <link href="css/login.css" rel="stylesheet" type="text/css">
     <link href="css/page_footer.css" rel="stylesheet" type="text/css">
     <div id="ondev">
-        <p id="ondev_title">Manage.</p>
+        <p id="ondev_title">Manager</p>
         <form class="loginBox" name="blogLoginForm" method="post" action="authority.php">
-            <input class="loginUserID" name="loginUserID" type="text"><br>
-            <input class="loginPws" name="loginPws" type="password"><br>
-            <input class="loginBut" name="blog_login_request" type="submit" value="Sign in">
+            <input class="loginUserID" name="loginUserID" type="text" placeholder="Account ID" autofocus spellcheck="false"><br>
+            <input class="loginPws" name="loginPws" type="password" placeholder="Passwords"><br>
+            <input class="loginBut" name="blog_login_request" type="submit" value="Done">
         </form>
     </div>
-
-
-
-    <div id="footer" style="display: block;position:absolute">
+    <div id="footer">
         <div class="footer_tips">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/"><img alt="知识共享许可协议"
                                                                                               style="border-width:0"
@@ -84,6 +81,8 @@ if (!isPJAX()): ?>
             <div style="position: absolute;right: 0">powered by huaji blog</div>
         </div>
     </div>
+    <script type="text/javascript" src="js/login.js"></script>
+
     <?php if (!isPJAX()): ?>
 </div>
 </body>

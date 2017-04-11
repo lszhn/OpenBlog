@@ -6,7 +6,6 @@
     background-color: #eeeeee;
     float: left;
     border-bottom: 1px solid #eeeeee;
-    font-family:MyriadProLight,"PingFangSC-light", "Microsoft yahei light";
 }#footer a{
      color:#63afea;
  }
@@ -28,7 +27,7 @@
     font-size: 13px;
     position: relative;
     float: left;
-    width: 100px;
+    width: 150px;
     margin-left: 10%;
 }
 .footer_block_title{

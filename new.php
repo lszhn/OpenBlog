@@ -21,8 +21,6 @@ else{
     <link href="css/general.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="editor/dist/css/wangEditor.min.css">
     <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/jquery.form.min.js"></script>
-
 
 </head>
 <body id=new_article_body>

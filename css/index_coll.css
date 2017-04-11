@@ -2,75 +2,74 @@
     position: relative;
     border-top: 1px solid rgb(100,100,100);
     text-align: center;
-    background-color: rgb(20,20,20);
+    background-color: black;
     color: white;
     float: left;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     transition: 0.5s;
 }
 #coll_box{
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 10%;
     width: 80%;
-    background-color: rgb(20,20,20);
-    transition: 0.5s;
+    background-color: black;
+    transition: 0.3s;
 }
 .coll{
     cursor: pointer;
-    font-family: "MyriadProLight", "PingFangSC-Regular", "Microsoft yahei light";
     position: relative;
     float: left;
-    border-bottom: 2px solid rgb(50,50,50);
-    float: left;
-    width: 48%;
+    width: 33%;
+    border-radius: 3px;
     height: 100px;
     font-size: 17px;
-    margin: 10px 1%;
-    background-color:rgb(30,30,30);
-    transition: border-bottom-color 0.3s;
+    margin: 1px;
+    background-color:#121212;
+    transition: 0.3s;
 
 }
 .coll:hover{
-    border-bottom: 2px solid #ff365d;
+    background-color:rgb(40,40,40);
+    /*border-bottom: 2px solid #ff365d;*/
 }
 .coll_box_title{
     z-index: 2;
-    text-align: left;
+    text-align: center;
     height: 100%;
-    width: 100%;
+    width: 80%;
     position: absolute;
-    font-size: 20px;
-    left: 2%;
-    top:5%;
-    color: white;
+    font-size: 17px;
+    left: 10%;
+    top:10%;
+    color: #cccccc;
 }
 /*.coll_box_title:hover{*/
    /*color: #ff365d;*/
 /*}*/
 .coll_box_time{
+    display: none;
     position: absolute;
-    left: 2%;
+    left: 5%;
     font-size: 15px;
     top:80%;
     color: rgb(100,100,100);
 }
 .coll_box_cate{
-    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
-    position: absolute;
     font-size: 15px;
-    top:50%;
-    right: 2%;
-    background-color: #ff365d;
-    color: white;
-    padding: 8px;
-    border-radius: 3px;
+    color: #ff365d;;
+    border: 1px solid #ff365d;
+    border-radius: 4px;
+    padding: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 .coll_detail{
     -webkit-backdrop-filter: blur(10px);
     display: none;
-    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
     position: absolute;
     top:0;
     left: 0;
@@ -136,7 +135,6 @@
     width: 80%;
     text-align: left;
     font-size: 17px;
-    font-family: "MyriadProLight", "PingFangSC-light", "Microsoft yahei light";
     color: white;
 }
 .coll_detail_content::selection {
@@ -149,7 +147,3 @@
     color:#1589c9;
 }
 
-.coll_detail_content::-webkit-selection {
-    background:black;
-    color:#1589c9;
-}

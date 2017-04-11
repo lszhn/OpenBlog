@@ -35,14 +35,14 @@ if (!isPJAX()): ?>
 </div>
 <div id="main">
     <?php endif; ?>
-    <link href="css/index_header.css" rel="stylesheet" type="text/css">
+    <link href="css/page.css" rel="stylesheet" type="text/css">
     <link href="css/login.css" rel="stylesheet" type="text/css">
     <link href="css/page_footer.css" rel="stylesheet" type="text/css">
     <link href="css/index_page.css" rel="stylesheet" type="text/css">
     <div id="ondev" style="top: 0;height: 400px">
         <p id="ondev_title"></p>
     </div>
-    <div id="content" style="margin-top: 400px;display: none"></div>
+    <div id="content" style="margin-top: 0;display: none"></div>
     <div id="footer">
         <div class="footer_tips">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/"><img alt="知识共享许可协议"
