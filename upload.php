@@ -69,24 +69,32 @@ if(isset($_FILES['uploadFile'])){
         <div class="footer_block">
             <p class="footer_block_title">Authority</p>
             <ul class="footer_block_list">
-                <li>Developer mode</li>
-                <li>Download pages</li>
-                <li>Opensource</li>
-                <li>Backup</li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="new.php">New page</a></li>
+                <li><a href="upload.php">Upload</a></li>
+                <li><a href="status.php">Status</a></li>
             </ul>
         </div>
         <div class="footer_block">
             <p class="footer_block_title">Contact me</p>
             <ul class="footer_block_list">
                 <li><a href="mailto:zhixiang96@hotmail.com">E-mail</a></li>
-                <li>Tencent QQ</li>
-                <li>WeChat</li>
+                <li><a href="https://github.com/zhixiang96">Github</a></li>
+            </ul>
+        </div>
+        <div class="footer_block">
+            <p class="footer_block_title">Category</p>
+            <ul class="footer_block_list">
+                <li><a href="category.php?=spirits">Spirits</a></li>
+                <li><a href="category.php?=points">Points</a></li>
+                <li><a href="category.php?=code">Code</a></li>
+                <li><a href="category.php?=trick">Trick</a></li>
             </ul>
         </div>
         <div id="footer_end" style="text-align: center">
             <div style="position: absolute;left: 0">Copyright © 2017 huaji.io All rights reserved.</div>
             <div style="position: absolute;left: 45%">鲁ICP备16011857号-2</div>
-            <div style="position: absolute;right: 0">powered by huaji blog</div>
+            <div style="position: absolute;right: 0">powered by <a href="http://bella.huaji.io">Bella</a></div>
         </div>
     </div>
     <script type="text/javascript" src="js/login.js"></script>

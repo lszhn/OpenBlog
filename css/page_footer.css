@@ -27,8 +27,16 @@
     font-size: 13px;
     position: relative;
     float: left;
-    width: 150px;
+    width:150px;
     margin-left: 10%;
+}
+.footer_block a{
+    color: #999999!important;
+    transition: 0.3s!important;
+}
+.footer_block a:hover{
+    text-decoration: none!important;
+    color: #777777!important;
 }
 .footer_block_title{
     color: #323232;

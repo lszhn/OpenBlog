@@ -15,7 +15,7 @@ function user_auth($uid,$pws){
             $_SESSION['uid'] = $uid;
             $_SESSION['name'] = $row[0][0];
             $_SESSION['status'] = true;
-            header("Location: new.php");
+            header("Location: index.php");
         }else
             header("Location: login.php");
     }
