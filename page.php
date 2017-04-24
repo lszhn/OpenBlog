@@ -37,8 +37,8 @@ if (!isPJAX()): ?>
     <title>huaji.io</title>
     <link href="css/page.css" rel="stylesheet" type="text/css">
     <link href="css/page_footer.css" rel="stylesheet" type="text/css">
+    <link href="css/hljs.default.min.css" rel="stylesheet">
     <script type="text/javascript" src="js/highlight.min.js"></script>
-    <link href="css/monokai_sublime.min.css" rel="stylesheet" type="text/css">
     <div class="header2">
         <span class="header2_title">文章</span>
         <span class="header2_subtitle"></span>
@@ -63,7 +63,7 @@ if (!isPJAX()): ?>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/cn/80x15.png" /></a><br />本博客作品均采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/">知识共享署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议</a>进行许可。
             <p>* www.huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
         </div>
-        <div class="footer_block">
+        <div class="footer_block" style="margin-left: 10%">
             <p class="footer_block_title">Authority</p>
             <ul class="footer_block_list">
                 <li><a href="login.php">Login</a></li>
@@ -88,6 +88,15 @@ if (!isPJAX()): ?>
                 <li><a href="category.php?=trick">Trick</a></li>
             </ul>
         </div>
+        <div class="footer_block">
+            <p class="footer_block_title">Partner sites</p>
+            <ul class="footer_block_list">
+                <li><a href="http://cn.naivefrog.win">naivefrog's Blog</a></li>
+                <li><a href="https://www.moekr.com">Moekr's Blog</a></li>
+                <li><a href="https://www.belang.org">belang.org</a></li>
+                <li><a href="http://bella.huaji.io">Bella</a></li>
+            </ul>
+        </div>
         <div id="footer_end" style="text-align: center">
             <div style="position: absolute;left: 0">Copyright © 2017 huaji.io All rights reserved.</div>
             <div style="position: absolute;left: 45%">鲁ICP备16011857号-2</div>
@@ -95,7 +104,6 @@ if (!isPJAX()): ?>
         </div>
     </div>
     <script type="text/javascript" src="js/page.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     <?php if(!isPJAX()):?>
 </div>
 </body>

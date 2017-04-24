@@ -27,9 +27,9 @@ function get_files($dir)
 
 function load_page_intro($page_name){
     $file = fopen('source/pages/' . $page_name . '.art', "rb") or die("file0");
-    $intro=strip_tags(fread($file, 350));
+    $intro=strip_tags(fread($file, 230));
     fclose($file);
-    return cn_substr($intro,350).'...';
+    return cn_substr($intro,200).'...';
 }
 
 function cn_substr($str,$len){
@@ -103,7 +103,7 @@ function db_init()
                         $row_points[$k3] = $row[$i];
                         $k3++;
                         break;
-                    case "奇技淫巧":
+                    case "技巧":
                         $row_trick[$k4] = $row[$i];
                         $k4++;
                         break;

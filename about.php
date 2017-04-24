@@ -35,70 +35,20 @@ if (!isPJAX()): ?>
     <title>huaji.io</title>
     <link href="css/index_header.css" rel="stylesheet" type="text/css">
     <link href="css/index_footer.css" rel="stylesheet" type="text/css">
-    <link href="css/index_coll.css" rel="stylesheet" type="text/css">
-    <link href="css/index_out.css" rel="stylesheet" type="text/css">
-    <link href="css/index_ondev.css" rel="stylesheet" type="text/css">
-    <link href="css/index_cate.css" rel="stylesheet" type="text/css">
-    <link href="css/index_loop.css" rel="stylesheet" type="text/css">
-    <link href="css/unslider-dots.css" rel="stylesheet" type="text/css">
-    <link href="css/unslider.css" rel="stylesheet" type="text/css">
-    <link href="css/index_page.css" rel="stylesheet" type="text/css">
   <div class="header2">
     <span class="header2_title"></span>
     <span class="header2_subtitle"></span>
     <div class="header2_bk"></div>
 </div>
-<div id="loop"></div>
-<div class="cate" id="cate0">
-   <a class="cate_box2" href="category.php?=spirits">
-        <i class="icon-comments"></i>
-        <span class="cate_box_title2">spirits</span>
-   </a>
-   <a class="cate_box2" href="category.php?=points">
-   <i class="icon-quote-left"></i>
-        <span class="cate_box_title2">points</span>
-   </a>
-   <a class="cate_box2" href="category.php?=code">
-   <i class="icon-laptop"></i>
-        <span class="cate_box_title2">code</span>
-   </a>
-   <a class="cate_box2" href="category.php?=trick">
-   <i class="icon-magic"></i>
-        <span class="cate_box_title2">trick</span>
-   </a>
-</div>
+<div class="hj_block" id="">
 
-<div id="content"></div>
-<div id="collection">
-<div id="coll_box"></div>
-    <div class="coll_detail">
-        <div class="coll_hide" onclick="coll_hide()">×</div>
-        <div class="coll_detail_title"></div>
-        <div class="coll_detail_time"></div>
-        <div class="coll_detail_cate"></div>
-        <div class="coll_detail_content">Loading...</div>
-    </div>
-</div>
-<div class="cate" style="display: none">
-   <a class="cate_box" href="upload.php">
-   <i class="icon-cloud-upload"></i>
-        <span class="cate_box_title">UPLOAD</span>
-   </a>
-   <a class="cate_box" href="new.php">
-   <i class="icon-file-alt"></i>
-        <span class="cate_box_title">NEW</span>
-   </a>
-</div>
-<div id="ondev">
-    <p id="ondev_title">Coming Soon.</p>
-    <div id="ondev_content">获取开发者信息与开源信息，请移步<a  href="about.html">关于</a>页面。</div>
 </div>
 <div id="footer">
     <div class="footer_tips">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/cn/80x15.png" /></a><br />本博客作品均采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/">知识共享署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议</a>进行许可。
         <p>* www.huaji.io是huaji.io的SSL安全副本，且huaji.io仍处于测试阶段</p>
     </div>
-    <div class="footer_block" style="margin-left: 10%">
+    <div class="footer_block">
         <p class="footer_block_title">Authority</p>
         <ul class="footer_block_list">
             <li><a href="login.php">Login</a></li>
@@ -121,15 +71,6 @@ if (!isPJAX()): ?>
             <li><a href="category.php?=points">Points</a></li>
             <li><a href="category.php?=code">Code</a></li>
             <li><a href="category.php?=trick">Trick</a></li>
-        </ul>
-    </div>
-    <div class="footer_block">
-        <p class="footer_block_title">Partner sites</p>
-        <ul class="footer_block_list">
-          <li><a href="http://cn.naivefrog.win">naivefrog's Blog</a></li>
-          <li><a href="https://www.moekr.com">Moekr's Blog</a></li>
-          <li><a href="https://www.belang.org">belang.org</a></li>
-          <li><a href="http://bella.huaji.io">Bella</a></li>
         </ul>
     </div>
     <div id="footer_end" style="text-align: center">

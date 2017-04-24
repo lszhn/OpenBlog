@@ -143,61 +143,6 @@ blockquote {
     font-size: 17px;
 }
 
-#page_content p::selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content p::-moz-selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content p span::selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content p span::-moz-selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content h3 {
-    font-weight: normal;
-    width: 100%;
-    border-top: 1px solid rgb(220, 220, 220);
-    padding-top: 40px;
-    color: #333333;
-    font-size: 27px;
-}
-
-#page_content h3::selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content h3::-moz-selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content h4 {
-    padding-top: 20px;
-    color: #444444;
-    font-size: 22px;
-}
-
-#page_content h4::selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
-#page_content h4::-moz-selection {
-    background: rgb(230, 230, 230);
-    color: #1589c9;
-}
-
 #page_content a {
     color: #1589c9;
     text-decoration: none;
@@ -206,4 +151,33 @@ blockquote {
 #page_content a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+#page_content h3 {
+    font-weight: normal;
+    width: 100%;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 40px;
+    color: #333333;
+    font-size: 27px;
+}
+#page_content h4 {
+    padding-top: 20px;
+    color: #444444;
+    font-size: 22px;
+}
+
+pre {
+    width: 100%;
+    background-color: #f9fafa!important;
+    border: 1px solid #e6e6e6!important;
+    border-radius: 4px!important;
+    overflow: auto!important;
+    color: #222222!important;
+    padding: 1em;
+}
+pre *{
+    font-family: SFMono !important;
+}
+pre code{
+    background-color: #f9fafa!important;
 }

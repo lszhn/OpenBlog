@@ -22,9 +22,10 @@
 }
 
 .page_title{
-    font-size: 24px;
+    font-size: 28px;
     color: #333333;
     transition: color 0.3s;
+    font-weight: 500;
 }
 .page_title:hover{
     color:#1589c9;
@@ -40,8 +41,8 @@
     user-select: text;
     -webkit-user-select:text;
     font-size: 17px;
-    line-height: 20px;
-    color: black;
+    line-height: 25px;
+    color: rgb(100,100,100);
 }
 .page_content{
     position: relative;

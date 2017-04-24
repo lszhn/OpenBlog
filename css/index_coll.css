@@ -100,6 +100,7 @@
     border-radius: 3px;
 }
 .coll_detail_time{
+    display: none;
     position: absolute;
    left: 10%;
     top:120px;
@@ -108,12 +109,13 @@
 }
 
 .coll_hide{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
     position: absolute;
-    top:75px;
-    font-size: 20px;
+    top:70px;
+    transition: 0.2s;
+    font-size: 27px;
     padding: 0;
     right: 5%;
     border-radius: 100%;
@@ -135,7 +137,8 @@
     width: 80%;
     text-align: left;
     font-size: 17px;
-    color: white;
+    line-height: 25px;
+    color: rgb(230,230,230);
 }
 .coll_detail_content::selection {
     background:black;

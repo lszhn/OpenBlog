@@ -13,6 +13,12 @@
     src: url('../fonts/sf-pro-text_regular.woff');
     url('../fonts/sf-pro-text_regular.woff') format('woff'),
 }
+@font-face {
+    font-family: 'SFMono';
+    font-weight: 300;
+    src: url('../fonts/sf-mono_regular.woff');
+url('../fonts/sf-mono_regular.woff') format('woff'),
+}
 .pace {
     -webkit-pointer-events: none;
     pointer-events: none;
@@ -219,4 +225,12 @@ a {
 }
 .header_logo_sub{
     color: rgb(100,100,100);
+}
+*::selection {
+    background: rgb(230, 230, 230);
+    color: #1589c9;
+}
+*::-moz-selection {
+    background: rgb(230, 230, 230);
+    color: #1589c9;
 }

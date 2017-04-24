@@ -32,6 +32,9 @@ function init_page() {
             if (data != "file0") {
                 $("#page_content").html(data);
                 $("#footer").fadeIn(300);
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });
             } else {
                 window.location.href = "index.php";
             }

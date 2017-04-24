@@ -27,8 +27,9 @@
     font-size: 13px;
     position: relative;
     float: left;
-    width:150px;
-    margin-left: 10%;
+    padding-top: 10px;
+    width: 120px;
+    margin-left: 20px;
 }
 .footer_block a{
     color: #999999!important;
@@ -40,11 +41,18 @@
 }
 .footer_block_title{
     color: #323232;
+    display: inline;
+
 }
 .footer_block_list{
+    margin: 0;
+    display: inline;
     padding: 0;
     list-style: none;
     color: #888888;
+}
+.footer_block_list li{
+    margin-top: 2px;
 }
 #footer_end{
     position: absolute;
