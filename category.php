@@ -21,18 +21,7 @@ if (!isPJAX()): ?>
     <link href="css/general.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="header">
-    <a class="header_logo pjax" href="index.php"">huaji.io<span
-        class="header_logo_sub">batterfly</span></a>
-    <ul class="header_menu">
-        <li><a class="pjax" href="index.php">Home</a></li>
-        <li><a class="pjax" href="page.php?name=code2">Spirits</a></li>
-        <li><a class="pjax">Points</a></li>
-        <li><a class="pjax">Code</a></li>
-        <li><a href="category.php?=code">Trick</a></li>
-        <li><a class="pjax" href="about.html">About</a></li>
-    </ul>
-</div>
+<?php include 'header.php'?>
 <div id="main">
     <?php endif; ?>
     <link href="css/page.css" rel="stylesheet" type="text/css">
