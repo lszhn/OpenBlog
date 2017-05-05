@@ -58,7 +58,6 @@ body {
 .header2_subtitle {
     color: black;
     width: 95%;
-
 }
 
 #page_header {
@@ -97,6 +96,7 @@ body {
 }
 
 #page_header_title {
+    font-family: "SSSans","PingFangSC","Microsoft yahei",sans-serif;
     margin-top: 25px;
     font-size: 30px;
     width: 100%;
@@ -152,18 +152,26 @@ blockquote {
     text-decoration: underline;
     cursor: pointer;
 }
-#page_content h3 {
-    font-weight: normal;
+#page_content h2 {
+    font-weight: 500;
     width: 100%;
     border-top: 1px solid rgb(220, 220, 220);
-    padding-top: 40px;
+    padding-top: 30px;
     color: #333333;
-    font-size: 27px;
+    font-size: 40px;
 }
-#page_content h4 {
-    padding-top: 20px;
-    color: #444444;
+#page_content h3 {
+    font-family: "PingFangSC","Microsoft yahei",sans-serif;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #333333;
     font-size: 22px;
+}
+#page_content img{
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.15);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 8px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    border-radius: 5px;
 }
 
 pre {

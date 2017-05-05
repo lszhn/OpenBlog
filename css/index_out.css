@@ -5,9 +5,10 @@
     top:40px;
     left: 0;
     font-size: 60px;
-    background-color:white;
+    background-color:black;
     text-align: center;
     padding-top: 200px;
-    color:#1589c9;
+    color:white;
     z-index: 500;
-}
+    font-family: "SSSans","PingFangSC","Microsoft yahei",sans-serif;
+}SFProIcons_light.woff

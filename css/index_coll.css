@@ -80,6 +80,7 @@
     width: 100%;
 }
 .coll_detail_title{
+    font-family: "SSSans","PingFangSC","Microsoft yahei",sans-serif;
     text-align: left;
     float: left;
     position: absolute;

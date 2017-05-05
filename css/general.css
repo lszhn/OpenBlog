@@ -9,13 +9,19 @@
 }
 @font-face {
     font-family: 'SFPro';
-    font-weight: 300;
+    font-weight: 200;
     src: url('../fonts/sf-pro-text_regular.woff');
     url('../fonts/sf-pro-text_regular.woff') format('woff'),
 }
 @font-face {
-    font-family: 'SFMono';
+    font-family: 'SSSans';
     font-weight: 300;
+    src: url('../fonts/SamsungSharpSansBd.woff');
+url('../fonts/SamsungSharpSansBd.woff') format('woff'),
+}
+@font-face {
+    font-family: 'SFMono';
+    font-weight: 200;
     src: url('../fonts/sf-mono_regular.woff');
 url('../fonts/sf-mono_regular.woff') format('woff'),
 }
@@ -97,6 +103,9 @@ url('../fonts/sf-mono_regular.woff') format('woff'),
 }
 *{
     font-family: "SFPro","PingFangSC-light","Microsoft yahei light","Microsoft yahei", sans-serif;
+}
+.SamsungSans{
+    font-family: "SSSans","PingFangSC","Microsoft yahei",sans-serif;
 }
 
 body {

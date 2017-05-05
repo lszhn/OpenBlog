@@ -22,6 +22,7 @@
 }
 
 .page_title{
+    font-family: "SSSans","PingFangSC","Microsoft yahei",sans-serif;
     font-size: 28px;
     color: #333333;
     transition: color 0.3s;
