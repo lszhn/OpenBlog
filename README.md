@@ -1,8 +1,6 @@
 #   the introduction for openBlog
 
-> ALERT: This project is no longer maintained because of its bullshit code style.
-
-> Simple Demo: http://designpatterns.huaji.io
+> ALERT: This project is no longer maintained.
 
 
 ### what is openBlog?
